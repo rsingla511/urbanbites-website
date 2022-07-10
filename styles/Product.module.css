@@ -1,0 +1,130 @@
+.container{
+   display: flex;
+   height: calc(100vh - 50px);
+
+   
+}
+.left{
+    flex: 1;
+    height: 100%;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+}
+.imgContainer{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    border-right: 2px solid #b78484;
+    
+}
+
+.right{
+    flex: 1;
+    padding: 30px;
+}
+.price{
+    font-size: 24px;
+    font-weight: 700;
+    color: #d1411e;
+    border-bottom: 2px solid #b78484;
+  padding-bottom: 2px;
+}
+.desc{
+    width: 80%;
+    font-size: 16px;
+    columns: #666;
+}
+.chooseSize{
+    color: #111;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.sizes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    border: 1px solid #e8d9d9;
+    padding: 10px 30px 10px 20px ;
+    border-radius: 5px;
+    background-color: #ebdad7;
+}
+.size{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.size:nth-child(2){
+    width: 45px;
+    height: 45px;
+   }
+.size:last-child{
+    width: 50px;
+    height: 50px;
+}
+.sizeNumber{
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: -20px;
+    background-color: #d1411e;
+    padding: 2px 7px;
+    border: 1px solid none;
+    border-radius: 20px;
+    color: #fff;
+    
+}
+.cheeseTitle, .toppingsTitle{
+    /* background-color: yellow; */
+    margin-bottom: 5px;
+}
+.cheese, .toppings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+     /* background-color: teal; */
+}
+.toppings{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.option, .optionT{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+      }
+.optionT{
+    width: 25%;
+   
+}
+.checkbox{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.quantityContainer{
+    margin-top: 20px;
+}
+.quantity{
+    width: 70px;
+    height: 35px;
+    margin-right: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.button{
+    height: 35px;
+    width: 200px;
+ background-color: #d1411e;
+ border: 1px solid #d1411e;
+ border-radius: 3px;
+ color: #fff;
+ font-weight: 550;
+ font-size: 16px;
+ cursor:pointer;
+}
