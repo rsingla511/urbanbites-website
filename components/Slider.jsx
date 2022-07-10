@@ -5,15 +5,15 @@ import styles from '../styles/Slider.module.css'
 const Slider = () => {
   const [index, setIndex] = useState(0)
   const images = [
-    "/img/pizza.png", "/img/delivered.png", "/img/checked.png" 
+    "/img/pizza.png", "/img/delivered.png", "/img/checked.png", "/img/bike.png"
   ]
 
   const handleArrow = (direction) => {
     if(direction==='l'){
-      setIndex(index!==0 ? index-1 : 2)
+      setIndex(index!==0 ? index-1 : 3)
     }
     else{
-      setIndex(index!==2 ? index+1 : 0)
+      setIndex(index!==3 ? index+1 : 0)
     }
   }
   console.log(index)

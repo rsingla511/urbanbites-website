@@ -22,7 +22,7 @@
     right: 0;
 }
 .wrapper{
-    width: 300vw;
+    width: 400vw;
     height: 100%;
     display: flex;
     transition: all 1.5s ease-in-out;

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <div className={styles.container}>
-        <div className={styles.item}>
+        <div className={styles.item} >
           <div className={styles.callButton}>
 
             <Image src='/img/telephone.png' width='32px' height='32px' alt='' />
